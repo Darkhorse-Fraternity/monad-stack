@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -193,7 +197,7 @@ importers:
   packages/config/tailwind:
     dependencies:
       '@monad-stack/tailwindcss-plugins':
-        specifier: ^0.2.0
+        specifier: ^0.2.1
         version: link:../../tailwindcss-plugins
       '@tailwindcss/typography':
         specifier: ^0.5.9
